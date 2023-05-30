@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp">
+
+    <FrameLayout
+        android:id="@+id/audio_visualizer_bar_1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_rounded_corners"
+        android:animateLayoutChanges="true"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/audio_visualizer_bar_2"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_rounded_corners"
+        android:layout_marginHorizontal="4dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/audio_visualizer_bar_3"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_rounded_corners"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/audio_visualizer_bar_4"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_rounded_corners"
+        android:layout_marginHorizontal="4dp"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/audio_visualizer_bar_5"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/rectangle_rounded_corners"></FrameLayout>
+</LinearLayout>

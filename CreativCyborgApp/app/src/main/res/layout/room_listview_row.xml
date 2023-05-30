@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="20dp"
+    android:columnCount="2"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/room_row_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:text="Saal 1"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="fill_horizontal|center_vertical"></TextView>
+
+    <ImageButton
+        android:id="@+id/room_delete_button"
+        android:focusable="false"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_column="1"
+        android:src="@drawable/ic_baseline_delete_outline"
+        app:tint="?attr/colorOnSurface"
+        android:background="?selectableItemBackgroundBorderless"
+        android:layout_marginLeft="20dp"></ImageButton>
+</GridLayout>

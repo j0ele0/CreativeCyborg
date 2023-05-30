@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.phone.ListeningActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="4">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                app:title="Placeholder"
+                android:id="@+id/listening_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_baseline_arrow_back"
+                app:navigationIconTint="?attr/colorOnSurface"></com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="16dp">
+
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/term1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="center"
+                android:text="Placerholder \n ChatGPT \n Answer"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:layout_marginTop="70dp"
+            >
+
+
+
+                <com.example.creativcyborg.views.AudioVisualizer
+                    android:id="@+id/audio_visualizer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"></com.example.creativcyborg.views.AudioVisualizer>
+
+
+
+
+            <Button
+                android:id="@+id/startStopAudioRecord_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:onClick="changeRecordState_onClick"
+                android:text="Aufnahme stoppen"></Button>
+        </LinearLayout>
+    </GridLayout>
+
+    <!-- Bootom Sheet (Optionen) -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <FrameLayout
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="?attr/colorSurfaceVariant">
+
+            <!-- Drag handle for accessibility -->
+            <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+                android:id="@+id/drag_handle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- Optionen -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Optionen"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"></TextView>
+
+                <GridLayout
+                    android:id="@+id/selectColorSheme_Item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="changeGenerateImagesState_onClick"
+                    android:background="?attr/selectableItemBackground"
+                    android:columnCount="3"
+                    android:padding="16dp"
+                    android:layout_marginTop="24dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_outline_image"
+                        app:tint="?attr/colorOnSurface"
+                        android:minHeight="20dp"
+                        android:minWidth="20dp"
+                        android:layout_gravity="center_vertical"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bilder generieren"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"></TextView>
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/generate_images_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|right"
+                        android:clickable="false"></com.google.android.material.materialswitch.MaterialSwitch>
+                </GridLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></com.google.android.material.divider.MaterialDivider>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_marginTop="12dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_outline_auto_awesome"
+                            app:tint="?attr/colorOnSurface"
+                            android:minHeight="20dp"
+                            android:minWidth="20dp"
+                            android:layout_gravity="center_vertical"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kreativität"
+                            android:textStyle="bold"
+                            android:textSize="17dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_gravity="center_vertical"></TextView>
+                    </LinearLayout>
+
+                    <com.google.android.material.slider.Slider
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/creativity_slider"
+                        android:valueFrom="0"
+                        android:valueTo="1"
+                        app:trackColorInactive="?attr/colorSurface"
+                        android:value="0.7"
+                        app:labelBehavior="floating"></com.google.android.material.slider.Slider>
+
+
+                </LinearLayout>
+
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></com.google.android.material.divider.MaterialDivider>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_marginTop="12dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_outline_timer"
+                            app:tint="?attr/colorOnSurface"
+                            android:minHeight="20dp"
+                            android:minWidth="20dp"
+                            android:layout_gravity="center_vertical"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Intervall neuer Ideen"
+                            android:textStyle="bold"
+                            android:textSize="17dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_gravity="center_vertical"></TextView>
+                    </LinearLayout>
+
+                    <com.google.android.material.slider.Slider
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/period_slider"
+                        android:valueFrom="5"
+                        android:valueTo="15"
+                        android:stepSize="1"
+                        app:trackColorInactive="?attr/colorSurface"
+                        android:value="6"
+                        app:labelBehavior="floating"></com.google.android.material.slider.Slider>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

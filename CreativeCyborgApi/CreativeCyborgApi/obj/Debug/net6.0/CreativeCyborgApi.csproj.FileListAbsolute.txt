@@ -1,0 +1,67 @@
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\appsettings.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.exe
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.deps.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.runtimeconfig.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.pdb
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\scopedcss\bundle\CreativeCyborgApi.styles.css
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.CopyComplete
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\refint\CreativeCyborgApi.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.pdb
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\ref\CreativeCyborgApi.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\appsettings.Development.json
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\appsettings.json
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.exe
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.deps.json
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.runtimeconfig.json
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\CreativeCyborgApi.pdb
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.AssemblyReference.cache
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.AssemblyInfoInputs.cache
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.AssemblyInfo.cs
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.CoreCompileInputs.cache
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets\msbuild.CreativeCyborgApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets\msbuild.build.CreativeCyborgApi.props
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CreativeCyborgApi.props
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CreativeCyborgApi.props
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets.build.json
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\staticwebassets.development.json
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\scopedcss\bundle\CreativeCyborgApi.styles.css
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.CopyComplete
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\refint\CreativeCyborgApi.dll
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.pdb
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.genruntimeconfig.cache
+D:\Studium\8.Semester\CreativeCyborg\API\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\ref\CreativeCyborgApi.dll
+C:\Users\simon\Documents\Android Studio\Projects\creativecyborg\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.AssemblyReference.cache
+C:\Users\simon\Documents\Android Studio\Projects\creativecyborg\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\Documents\Android Studio\Projects\creativecyborg\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.AssemblyInfoInputs.cache
+C:\Users\simon\Documents\Android Studio\Projects\creativecyborg\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.AssemblyInfo.cs
+C:\Users\simon\Documents\Android Studio\Projects\creativecyborg\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.csproj.CoreCompileInputs.cache
+C:\Users\simon\Documents\Android Studio\Projects\creativecyborg\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\simon\Documents\Android Studio\Projects\creativecyborg\CreativeCyborgApi\CreativeCyborgApi\obj\Debug\net6.0\CreativeCyborgApi.MvcApplicationPartsAssemblyInfo.cache

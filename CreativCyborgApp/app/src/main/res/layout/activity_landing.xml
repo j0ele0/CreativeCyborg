@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.phone.LandingActivity"
+    android:columnCount="1"
+    android:rowCount="5"
+    android:clipChildren="false">
+
+    <ImageView
+        android:id="@+id/top_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_outline_lightbulb"
+        android:layout_marginTop="16dp"></ImageView>
+
+    <TextView
+        android:id="@+id/top_textview"
+        android:text="Beschreibt das Thema, bei dem ihr kreativ inspiriert werden möchtet."
+        android:lines="2"
+        android:textSize="19dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="12dp"></TextView>
+
+    <TextView
+        android:id="@+id/detail_top_textview"
+        android:text="Zum Starten antippen"
+        android:gravity="bottom|center_horizontal"
+        android:lines="2"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_rowWeight="0.7"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"></TextView>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_rowWeight="1"
+        android:layout_gravity="center_horizontal|top"
+        android:clipChildren="false"
+        android:elevation="20dp"
+        android:layout_marginTop="48dp">
+
+        <FrameLayout
+            android:id="@+id/impulse_circle_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_circle"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/impulse_circle_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main_circle"></FrameLayout>
+
+        <ViewSwitcher
+            android:id="@+id/main_view_switcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inAnimation="@anim/big_button_in"
+            android:outAnimation="@anim/big_button_out">
+
+            <FrameLayout
+                android:id="@+id/big_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/main_circle"
+                android:onClick="bigButton_onClick">
+
+                <ViewFlipper
+                    android:id="@+id/circle_inner_content_viewswitcher"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inAnimation="@android:anim/fade_in"
+                    android:outAnimation="@android:anim/fade_out">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_android"></ImageView>
+
+                    <com.example.creativcyborg.views.AudioVisualizer
+                        android:id="@+id/audio_visualizer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"></com.example.creativcyborg.views.AudioVisualizer>
+
+                    <com.google.android.material.progressindicator.CircularProgressIndicator
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:indeterminate="true"
+                        android:layout_gravity="center"></com.google.android.material.progressindicator.CircularProgressIndicator>
+                </ViewFlipper>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <Button
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Zurücksetzen"
+                    android:layout_gravity="center_horizontal"
+                    android:onClick="reset_onClick"></Button>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Starten"
+                    android:onClick="startMeeting_onClick"
+                    android:drawableRight="@drawable/ic_baseline_arrow_forward"
+                    android:drawableTint="?attr/colorOnPrimary"
+                    android:layout_gravity="center_horizontal"></Button>
+            </LinearLayout>
+        </ViewSwitcher>
+    </FrameLayout>
+
+    <!-- Beispiele für Themen -->
+    <ViewFlipper
+        android:id="@+id/helper_texts_viewflipper"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_rowWeight="0.8"
+        android:autoStart="true"
+        android:flipInterval="4000"
+        android:inAnimation="@anim/helper_text_in"
+        android:outAnimation="@anim/helper_text_out">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;Marketingkampagne für 4k-Fernseher&quot;"
+            android:alpha="0.5"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;Neues Zoo-Logo gestalten&quot;"
+            android:alpha="0.5"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;Ideen für eine smarte Fernsehsteuerung&quot;"
+            android:alpha="0.5"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&quot;Herangehensweisen zur Durchführung von Straßenumfragen&quot;"
+            android:alpha="0.5"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"></TextView>
+    </ViewFlipper>
+</GridLayout>

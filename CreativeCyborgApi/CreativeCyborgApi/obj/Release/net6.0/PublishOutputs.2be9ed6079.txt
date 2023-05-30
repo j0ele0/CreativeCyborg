@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\CreativeCyborgApi.exe
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\CreativeCyborgApi.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\CreativeCyborgApi.deps.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\CreativeCyborgApi.runtimeconfig.json
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\CreativeCyborgApi.pdb
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Desktop\CreativeCyborgApi\CreativeCyborgApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
